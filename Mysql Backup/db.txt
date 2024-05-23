@@ -1,0 +1,42 @@
+List of all Current backups files with size on  Tue Jun 20 08:01:05 IST 2017.
+
+Percentage of left space in server : 
+24% 14G /
+36% 259G /home
+
+==================
+
+Remark : Currently no any issue in Backup file size.
+
+==================
+
+3.8G	2017-06-20 00:01	/home/mysqlbackup/zipker_prod-20-Jun-2017-00-00-01.sql
+3.8G	2017-06-20 04:01	/home/mysqlbackup/zipker_prod-20-Jun-2017-04-00-01.sql
+3.8G	2017-06-20 08:01	/home/mysqlbackup/zipker_prod-20-Jun-2017-08-00-01.sql
+3.6G	2017-06-19 04:01	/home/mysqlbackup/zipker_prod-19-Jun-2017-04-00-01.sql
+3.6G	2017-06-19 08:01	/home/mysqlbackup/zipker_prod-19-Jun-2017-08-00-01.sql
+3.7G	2017-06-19 00:01	/home/mysqlbackup/zipker_prod-19-Jun-2017-00-00-01.sql
+3.7G	2017-06-19 12:00	/home/mysqlbackup/zipker_prod-19-Jun-2017-12-00-01.sql
+3.7G	2017-06-19 16:01	/home/mysqlbackup/zipker_prod-19-Jun-2017-16-00-01.sql
+3.8G	2017-06-19 20:01	/home/mysqlbackup/zipker_prod-19-Jun-2017-20-00-01.sql
+3.5G	2017-06-18 12:00	/home/mysqlbackup/zipker_prod-18-Jun-2017-12-00-01.sql
+3.6G	2017-06-18 16:01	/home/mysqlbackup/zipker_prod-18-Jun-2017-16-00-01.sql
+3.6G	2017-06-18 20:01	/home/mysqlbackup/zipker_prod-18-Jun-2017-20-00-01.sql
+3.7G	2017-06-18 04:01	/home/mysqlbackup/zipker_prod-18-Jun-2017-04-00-01.sql
+3.7G	2017-06-18 08:01	/home/mysqlbackup/zipker_prod-18-Jun-2017-08-00-01.sql
+3.9G	2017-06-18 00:01	/home/mysqlbackup/zipker_prod-18-Jun-2017-00-00-01.sql
+3.5G	2017-06-17 00:00	/home/mysqlbackup/zipker_prod-17-Jun-2017-00-00-01.sql
+3.5G	2017-06-17 04:01	/home/mysqlbackup/zipker_prod-17-Jun-2017-04-00-01.sql
+3.5G	2017-06-17 08:00	/home/mysqlbackup/zipker_prod-17-Jun-2017-08-00-01.sql
+3.6G	2017-06-17 12:01	/home/mysqlbackup/zipker_prod-17-Jun-2017-12-00-01.sql
+3.7G	2017-06-17 16:01	/home/mysqlbackup/zipker_prod-17-Jun-2017-16-00-01.sql
+3.8G	2017-06-17 20:01	/home/mysqlbackup/zipker_prod-17-Jun-2017-20-00-01.sql
+3.4G	2017-06-16 20:00	/home/mysqlbackup/zipker_prod-16-Jun-2017-20-00-01.sql
+3.5G	2017-06-16 04:01	/home/mysqlbackup/zipker_prod-16-Jun-2017-04-00-01.sql
+3.5G	2017-06-16 08:00	/home/mysqlbackup/zipker_prod-16-Jun-2017-08-00-01.sql
+3.6G	2017-06-16 00:01	/home/mysqlbackup/zipker_prod-16-Jun-2017-00-00-01.sql
+3.6G	2017-06-16 12:01	/home/mysqlbackup/zipker_prod-16-Jun-2017-12-00-01.sql
+3.7G	2017-06-16 16:01	/home/mysqlbackup/zipker_prod-16-Jun-2017-16-00-01.sql
+3.4G	2017-06-15 16:00	/home/mysqlbackup/zipker_prod-15-Jun-2017-16-00-01.sql
+3.5G	2017-06-15 20:00	/home/mysqlbackup/zipker_prod-15-Jun-2017-20-00-01.sql
+3.6G	2017-06-15 12:01	/home/mysqlbackup/zipker_prod-15-Jun-2017-12-00-01.sql

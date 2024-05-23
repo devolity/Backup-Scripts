@@ -1,0 +1,101 @@
+yum -y update && yum -y groupinstall core && yum -y groupinstall base && yum -y install epel-release
+yum install mysql httpd *ncurses* *uuid-devel* *libjansson* *libxml2* sql* git* php-posix gcc-c++ -y
+
+
+yum -y install automake gcc gcc-c++ ncurses-devel openssl-devel libxml2-devel unixODBC-devel libcurl-devel libogg-devel libvorbis-devel speex-devel spandsp-devel freetds-devel net-snmp-devel iksemel-devel corosynclib-devel newt-devel popt-devel libtool-ltdl-devel lua-devel sqlite-devel radiusclient-ng-devel portaudio-devel libresample-devel neon-devel libical-devel openldap-devel gmime-devel mysql-devel bluez-libs-devel jack-audio-connection-kit-devel gsm-devel libedit-devel libuuid-devel jansson-devel libsrtp-devel git subversion libxslt-devel kernel-devel audiofile-devel gtk2-devel libtiff-devel libtermcap-devel bison php php-mysql php-process php-pear php-mbstring php-xml php-gd tftp-server httpd sox tzdata mysql-connector-odbc mysql-server fail2ban
+
+iptables -F
+service iptables save
+service iptables stop
+chkconfig iptables off
+
+setenforce 0
+
+init 6 
+
+
+ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+
+
+cd /usr/src
+wget http://www.pjsip.org/release/2.3/pjproject-2.3.tar.bz2
+tar -xjvf pjproject*
+cd /usr/src/pjproject*/
+
+ARCH=$(getconf LONG_BIT | grep "64")
+./configure --prefix=/usr --libdir=/usr/lib${ARCH} --enable-shared --disable-sound --disable-resample \
+--disable-video --disable-opencore-amr CFLAGS='-O2 -DNDEBUG'
+
+make uninstall && make dep && make && make install && ldconfig
+
+
+cd /usr/src
+wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-13-current.tar.gz
+tar zxvf asterisk-13-current.tar.gz
+cd /usr/src/asterisk-13*/
+make distclean
+
+ARCH=$(getconf LONG_BIT | grep "64")
+./configure --libdir=/usr/lib${ARCH}
+
+
+cd /usr/src/asterisk-13*/
+make menuselect.makeopts
+menuselect/menuselect --enable cdr_mysql --enable EXTRA-SOUNDS-EN-GSM menuselect.makeopts
+
+adduser asterisk -M -d /var/lib/asterisk -s /sbin/nologin -c "Asterisk User"
+make && make install && chown -R asterisk. /var/lib/asterisk
+
+pear install db-1.7.14
+VERSION=12.0
+USERNAME=asteriskuser
+PASSWORD=amp109
+
+service mysqld start
+mysqladmin create asterisk
+mysqladmin create asteriskcdrdb
+mysql -e "GRANT ALL PRIVILEGES ON asterisk.* TO $USERNAME@localhost IDENTIFIED BY '$PASSWORD';"
+mysql -e "GRANT ALL PRIVILEGES ON asteriskcdrdb.* TO $USERNAME@localhost IDENTIFIED BY '$PASSWORD';"
+mysql -e "flush privileges;"
+
+cd /usr/src
+git clone -b release/$VERSION https://github.com/FreePBX/framework.git freepbx
+
+cd /usr/src/freepbx
+./start_asterisk start
+mv /var/www/html /var/www/html_orig
+./install_amp --installdb --skip-module-install --username $USERNAME --password $PASSWORD
+
+amportal a ma upgrade framework
+amportal a ma upgrade core
+amportal a ma upgrade voicemail
+amportal a ma upgrade sipsettings
+amportal a ma upgrade infoservices
+amportal a ma upgrade featurecodeadmin
+amportal a ma upgrade logfiles
+amportal a ma upgrade callrecording
+amportal a ma upgrade cdr
+amportal a ma upgrade dashboard
+amportal a ma upgrade manager
+amportal a ma installall
+amportal restart
+amportal a reload
+amportal chown
+
+MYSQL_ROOT_PW=abcdef
+mysqladmin -u root password "$MYSQL_ROOT_PW"
+
+sed -i 's/User apache/User asterisk/' /etc/httpd/conf/httpd.conf
+sed -i 's/Group apache/Group asterisk/' /etc/httpd/conf/httpd.conf
+sed -i ':a;N;$!ba;s/AllowOverride None/AllowOverride All/2' /etc/httpd/conf/httpd.conf
+sed -i '2i bind-address=127.0.0.1' /etc/my.cnf
+
+chkconfig mysqld on
+chkconfig httpd on
+sed -i 's/upload_max_filesize = .*/upload_max_filesize = 20M/' /etc/php.ini
+echo '/usr/local/sbin/amportal start' >> /etc/rc.local
+reboot
+
+
+
+
