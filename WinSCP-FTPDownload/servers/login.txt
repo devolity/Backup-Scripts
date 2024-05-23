@@ -1,0 +1,5 @@
+option batch continue
+option confirm off
+open login@52.37.171.218
+get * E:\ADATA\login-%TIMESTAMP%\
+bye

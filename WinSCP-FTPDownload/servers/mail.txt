@@ -1,0 +1,5 @@
+option batch continue
+option confirm off
+open acloud@52.37.171.218
+get * E:\ADATA\acloud-%TIMESTAMP%\
+bye

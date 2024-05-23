@@ -1,0 +1,5 @@
+option batch continue
+option confirm off
+open hosting@52.36.167.74
+get * E:\ADATA\hosting-%TIMESTAMP%\
+bye
