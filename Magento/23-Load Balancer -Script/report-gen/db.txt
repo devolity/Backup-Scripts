@@ -1,0 +1,93 @@
+List of all Current backups files with size on  Sat Jul 27 15:33:31 IST 2019.
+
+Percentage of left space in server : 
+1% 929G /
+
+==================
+
+Remark : Currently no any issue in Backup file size.
+
+==================
+
+11G	2019-06-30 23:03	/home/Mysql-DB-Backup/zipker_prod-30-Jun-2019-23-01-01.sql
+654M	2019-06-30 20:01	/home/Mysql-DB-Backup/yeboindia-30-Jun-2019-20-01-01.sql
+791M	2019-06-30 20:01	/home/Mysql-DB-Backup/fablaze-30-Jun-2019-20-01-01.sql
+789M	2019-06-29 23:08	/home/Mysql-DB-Backup/fablaze-29-Jun-2019-23-07-10.sql
+11G	2019-07-26 23:03	/home/Mysql-DB-Backup/zipker_prod-26-Jul-2019-23-01-01.sql
+669M	2019-07-26 20:01	/home/Mysql-DB-Backup/yeboindia-26-Jul-2019-20-01-01.sql
+938M	2019-07-26 20:01	/home/Mysql-DB-Backup/fablaze-26-Jul-2019-20-01-01.sql
+12G	2019-07-25 23:03	/home/Mysql-DB-Backup/zipker_prod-25-Jul-2019-23-01-01.sql
+667M	2019-07-25 20:01	/home/Mysql-DB-Backup/yeboindia-25-Jul-2019-20-01-01.sql
+913M	2019-07-25 20:01	/home/Mysql-DB-Backup/fablaze-25-Jul-2019-20-01-01.sql
+11G	2019-07-24 23:03	/home/Mysql-DB-Backup/zipker_prod-24-Jul-2019-23-01-01.sql
+664M	2019-07-24 20:01	/home/Mysql-DB-Backup/yeboindia-24-Jul-2019-20-01-01.sql
+888M	2019-07-24 20:01	/home/Mysql-DB-Backup/fablaze-24-Jul-2019-20-01-01.sql
+11G	2019-07-23 23:03	/home/Mysql-DB-Backup/zipker_prod-23-Jul-2019-23-01-01.sql
+661M	2019-07-23 20:01	/home/Mysql-DB-Backup/yeboindia-23-Jul-2019-20-01-01.sql
+862M	2019-07-23 20:01	/home/Mysql-DB-Backup/fablaze-23-Jul-2019-20-01-01.sql
+11G	2019-07-22 23:03	/home/Mysql-DB-Backup/zipker_prod-22-Jul-2019-23-01-01.sql
+658M	2019-07-22 20:01	/home/Mysql-DB-Backup/yeboindia-22-Jul-2019-20-01-01.sql
+836M	2019-07-22 20:01	/home/Mysql-DB-Backup/fablaze-22-Jul-2019-20-01-01.sql
+11G	2019-07-21 23:03	/home/Mysql-DB-Backup/zipker_prod-21-Jul-2019-23-01-01.sql
+655M	2019-07-21 20:01	/home/Mysql-DB-Backup/yeboindia-21-Jul-2019-20-01-01.sql
+805M	2019-07-21 20:01	/home/Mysql-DB-Backup/fablaze-21-Jul-2019-20-01-01.sql
+11G	2019-07-20 23:03	/home/Mysql-DB-Backup/zipker_prod-20-Jul-2019-23-01-01.sql
+653M	2019-07-20 20:01	/home/Mysql-DB-Backup/yeboindia-20-Jul-2019-20-01-01.sql
+761M	2019-07-20 20:01	/home/Mysql-DB-Backup/fablaze-20-Jul-2019-20-01-01.sql
+11G	2019-07-19 23:03	/home/Mysql-DB-Backup/zipker_prod-19-Jul-2019-23-01-01.sql
+650M	2019-07-19 20:01	/home/Mysql-DB-Backup/yeboindia-19-Jul-2019-20-01-01.sql
+716M	2019-07-19 20:01	/home/Mysql-DB-Backup/fablaze-19-Jul-2019-20-01-01.sql
+12G	2019-07-18 23:03	/home/Mysql-DB-Backup/zipker_prod-18-Jul-2019-23-01-02.sql
+647M	2019-07-18 20:01	/home/Mysql-DB-Backup/yeboindia-18-Jul-2019-20-01-01.sql
+658M	2019-07-18 20:01	/home/Mysql-DB-Backup/fablaze-18-Jul-2019-20-01-01.sql
+12G	2019-07-17 23:03	/home/Mysql-DB-Backup/zipker_prod-17-Jul-2019-23-01-01.sql
+624M	2019-07-17 20:01	/home/Mysql-DB-Backup/fablaze-17-Jul-2019-20-01-01.sql
+645M	2019-07-17 20:01	/home/Mysql-DB-Backup/yeboindia-17-Jul-2019-20-01-01.sql
+11G	2019-07-16 23:03	/home/Mysql-DB-Backup/zipker_prod-16-Jul-2019-23-01-01.sql
+633M	2019-07-16 20:01	/home/Mysql-DB-Backup/fablaze-16-Jul-2019-20-01-01.sql
+643M	2019-07-16 20:01	/home/Mysql-DB-Backup/yeboindia-16-Jul-2019-20-01-01.sql
+11G	2019-07-15 23:03	/home/Mysql-DB-Backup/zipker_prod-15-Jul-2019-23-01-01.sql
+642M	2019-07-15 20:01	/home/Mysql-DB-Backup/yeboindia-15-Jul-2019-20-01-01.sql
+913M	2019-07-15 20:01	/home/Mysql-DB-Backup/fablaze-15-Jul-2019-20-01-01.sql
+11G	2019-07-14 23:03	/home/Mysql-DB-Backup/zipker_prod-14-Jul-2019-23-01-01.sql
+635M	2019-07-14 20:01	/home/Mysql-DB-Backup/yeboindia-14-Jul-2019-20-01-01.sql
+881M	2019-07-14 20:01	/home/Mysql-DB-Backup/fablaze-14-Jul-2019-20-01-01.sql
+11G	2019-07-13 23:03	/home/Mysql-DB-Backup/zipker_prod-13-Jul-2019-23-01-01.sql
+626M	2019-07-13 20:01	/home/Mysql-DB-Backup/yeboindia-13-Jul-2019-20-01-01.sql
+845M	2019-07-13 20:01	/home/Mysql-DB-Backup/fablaze-13-Jul-2019-20-01-01.sql
+11G	2019-07-12 23:03	/home/Mysql-DB-Backup/zipker_prod-12-Jul-2019-23-01-01.sql
+618M	2019-07-12 20:01	/home/Mysql-DB-Backup/yeboindia-12-Jul-2019-20-01-01.sql
+817M	2019-07-12 20:01	/home/Mysql-DB-Backup/fablaze-12-Jul-2019-20-01-01.sql
+11G	2019-07-11 23:03	/home/Mysql-DB-Backup/zipker_prod-11-Jul-2019-23-01-01.sql
+611M	2019-07-11 20:01	/home/Mysql-DB-Backup/yeboindia-11-Jul-2019-20-01-01.sql
+784M	2019-07-11 20:01	/home/Mysql-DB-Backup/fablaze-11-Jul-2019-20-01-01.sql
+11G	2019-07-10 23:03	/home/Mysql-DB-Backup/zipker_prod-10-Jul-2019-23-01-01.sql
+604M	2019-07-10 20:01	/home/Mysql-DB-Backup/yeboindia-10-Jul-2019-20-01-01.sql
+751M	2019-07-10 20:01	/home/Mysql-DB-Backup/fablaze-10-Jul-2019-20-01-01.sql
+11G	2019-07-09 23:03	/home/Mysql-DB-Backup/zipker_prod-09-Jul-2019-23-01-01.sql
+597M	2019-07-09 20:01	/home/Mysql-DB-Backup/yeboindia-09-Jul-2019-20-01-01.sql
+727M	2019-07-09 20:01	/home/Mysql-DB-Backup/fablaze-09-Jul-2019-20-01-01.sql
+11G	2019-07-08 23:03	/home/Mysql-DB-Backup/zipker_prod-08-Jul-2019-23-01-01.sql
+590M	2019-07-08 20:01	/home/Mysql-DB-Backup/yeboindia-08-Jul-2019-20-01-01.sql
+704M	2019-07-08 20:01	/home/Mysql-DB-Backup/fablaze-08-Jul-2019-20-01-01.sql
+11G	2019-07-07 23:03	/home/Mysql-DB-Backup/zipker_prod-07-Jul-2019-23-01-01.sql
+582M	2019-07-07 20:01	/home/Mysql-DB-Backup/yeboindia-07-Jul-2019-20-01-01.sql
+677M	2019-07-07 20:01	/home/Mysql-DB-Backup/fablaze-07-Jul-2019-20-01-01.sql
+12G	2019-07-06 23:03	/home/Mysql-DB-Backup/zipker_prod-06-Jul-2019-23-01-01.sql
+575M	2019-07-06 20:01	/home/Mysql-DB-Backup/yeboindia-06-Jul-2019-20-01-01.sql
+652M	2019-07-06 20:01	/home/Mysql-DB-Backup/fablaze-06-Jul-2019-20-01-01.sql
+12G	2019-07-05 23:03	/home/Mysql-DB-Backup/zipker_prod-05-Jul-2019-23-01-01.sql
+569M	2019-07-05 20:01	/home/Mysql-DB-Backup/yeboindia-05-Jul-2019-20-01-01.sql
+815M	2019-07-05 20:01	/home/Mysql-DB-Backup/fablaze-05-Jul-2019-20-01-01.sql
+11G	2019-07-04 23:03	/home/Mysql-DB-Backup/zipker_prod-04-Jul-2019-23-01-01.sql
+563M	2019-07-04 20:01	/home/Mysql-DB-Backup/yeboindia-04-Jul-2019-20-01-01.sql
+802M	2019-07-04 20:01	/home/Mysql-DB-Backup/fablaze-04-Jul-2019-20-01-01.sql
+11G	2019-07-03 23:03	/home/Mysql-DB-Backup/zipker_prod-03-Jul-2019-23-01-01.sql
+555M	2019-07-03 20:01	/home/Mysql-DB-Backup/yeboindia-03-Jul-2019-20-01-01.sql
+798M	2019-07-03 20:01	/home/Mysql-DB-Backup/fablaze-03-Jul-2019-20-01-01.sql
+11G	2019-07-02 23:03	/home/Mysql-DB-Backup/zipker_prod-02-Jul-2019-23-01-01.sql
+549M	2019-07-02 20:01	/home/Mysql-DB-Backup/yeboindia-02-Jul-2019-20-01-01.sql
+795M	2019-07-02 20:01	/home/Mysql-DB-Backup/fablaze-02-Jul-2019-20-01-01.sql
+11G	2019-07-01 23:03	/home/Mysql-DB-Backup/zipker_prod-01-Jul-2019-23-01-01.sql
+661M	2019-07-01 20:01	/home/Mysql-DB-Backup/yeboindia-01-Jul-2019-20-01-01.sql
+793M	2019-07-01 20:01	/home/Mysql-DB-Backup/fablaze-01-Jul-2019-20-01-01.sql

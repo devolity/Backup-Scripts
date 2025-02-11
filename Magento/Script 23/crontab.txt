@@ -1,0 +1,4 @@
+* 1 * * 0 sh /home/script/webdata.sh
+* 1 * * 4 sh /home/script/webdata.sh
+* 23 * * * sh /home/script/mediabak.sh
+00 04 * * 7 sh /home/script/araw_logs_clean.sh

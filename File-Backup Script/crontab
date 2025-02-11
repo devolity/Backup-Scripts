@@ -1,0 +1,38 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+HOME=/
+
+# For details see man 4 crontabs
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
+0 4 * * * sh /root/abhi/mysql.sh
+
+#0 13 * * *  sh /root/abhi/mysqlpm.sh
+
+0 */4 * * *  sh /root/abhi/mysql7pm.sh
+
+###################
+0 1 * * * sh /home/script/zipkercourier_fedex.sh | echo "The task is started for Fedex Courier `date`" | mail -e -s "Fedex Zipker Courier Tracking" arpan.jain@zipker.com,avinash.puri@zipker.com
+
+1 1 * * * sh /home/script/zipkercourier_bluedart.sh | echo "The task is started for Blue Dart Courier `date`" | mail -e -s "Blue Dart Zipker Courier Tracking" arpan.jain@zipker.com,avinash.puri@zipker.com
+
+2 1 * * * sh /home/script/zipkercourier_ecom.sh | echo "The task is started for Ecom Courier `date`" | mail -e -s "Ecom Zipker Courier Tracking" arpan.jain@zipker.com,avinash.puri@zipker.com
+
+3 1 * * * sh /home/script/zipkercourier_aramex.sh | echo "The task is started for Aramex Courier `date`" | mail -e -s "Aramex Zipker Courier Tracking" arpan.jain@zipker.com,avinash.puri@zipker.com
+
+#*/1 * * * * /usr/bin/php /root/zmonitor.php > /var/www/html/.woutput.txt
+
+#* * * * * /home/cronupdate.sh
+#* * * * * sh /home/script/zipker_code_sync.sh
+
+################## [root@ns3327368 ~]# crontab -u apache -e
+* * * * * sh /home/script/zipker_media_sync.sh
+* * * * * sh /root/zipkermedia.sh

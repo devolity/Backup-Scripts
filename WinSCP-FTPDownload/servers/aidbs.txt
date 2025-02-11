@@ -1,0 +1,5 @@
+option batch continue
+option confirm off
+open aidbs@54.213.175.15
+get * E:\ADATA\aidbs-%TIMESTAMP%\
+bye

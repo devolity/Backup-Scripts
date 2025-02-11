@@ -1,0 +1,28 @@
+List of all Current backups files with size on  Fri Oct 28 17:48:09 IST 2016.
+
+Percentage of left space in server : 
+72%  /
+54%  /home
+
+==================
+
+Remark : Currently no any issue in Backup file size.
+
+==================
+
+2.7G	2016-10-28 17:00	/home/mysqlbackup/zipker_prod-28-Oct-2016-16-59-23.sql
+2.7G	2016-10-28 17:48	/home/mysqlbackup/zipker_prod-28-Oct-2016-17-47-24.sql
+4.2G	2016-10-28 04:01	/home/mysqlbackup/zipker_prod-28-Oct-2016-04-00-01.sql
+4.0G	2016-10-27 04:01	/home/mysqlbackup/zipker_prod-27-Oct-2016-04-00-01.sql
+4.0G	2016-10-27 13:01	/home/mysqlbackup/zipker_prod-27-Oct-2016-13-00-01.sql
+4.1G	2016-10-27 19:01	/home/mysqlbackup/zipker_prod-27-Oct-2016-19-00-01.sql
+3.8G	2016-10-26 04:01	/home/mysqlbackup/zipker_prod-26-Oct-2016-04-00-01.sql
+3.8G	2016-10-26 13:01	/home/mysqlbackup/zipker_prod-26-Oct-2016-13-00-01.sql
+3.9G	2016-10-26 19:02	/home/mysqlbackup/zipker_prod-26-Oct-2016-19-00-01.sql
+3.7G	2016-10-25 14:07	/home/mysqlbackup/zipker_prod-25-Oct-2016-14-05-56.sql
+3.7G	2016-10-25 19:01	/home/mysqlbackup/zipker_prod-25-Oct-2016-19-00-01.sql
+3.8G	2016-10-25 04:02	/home/mysqlbackup/zipker_prod-25-Oct-2016-04-00-02.sql
+3.4G	2016-10-24 04:02	/home/mysqlbackup/zipker_prod-24-Oct-2016-04-00-01.sql
+3.4G	2016-10-24 13:02	/home/mysqlbackup/zipker_prod-24-Oct-2016-13-00-01.sql
+3.6G	2016-10-24 19:02	/home/mysqlbackup/zipker_prod-24-Oct-2016-19-00-01.sql
+3.2G	2016-10-23 19:02	/home/mysqlbackup/zipker_prod-23-Oct-2016-19-00-02.sql

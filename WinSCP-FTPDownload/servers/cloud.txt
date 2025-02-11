@@ -1,0 +1,5 @@
+option batch continue
+option confirm off
+open cloud@52.36.167.74
+get * E:\ADATA\cloud-%TIMESTAMP%\
+bye

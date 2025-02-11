@@ -1,0 +1,5 @@
+List of all current backups directory with size on Mon Feb 27 03:00:05 IST 2017.
+
+==============================
+
+1.9M	/home/appdata/27-Feb-2017-03-00

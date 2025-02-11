@@ -1,0 +1,7 @@
+##########
+
+rsync -rltvz -e "ssh -p 2024 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --progress --exclude media root@172.16.0.1:/var/www/html/.* DISK2/Zipker-Dec-23/
+
+##########
+
+

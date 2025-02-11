@@ -1,0 +1,27 @@
+List of all Current backups files with size on  Thu Mar  2 04:01:44 IST 2017.
+
+Percentage of left space in server : 
+25% 14G /
+70% 122G /home
+
+==================
+
+Remark : Currently no any issue in Backup file size.
+
+==================
+
+6.3G	2017-02-28 04:01	/home/mysqlbackup/zipker_prod-28-Feb-2017-04-00-01.sql
+6.4G	2017-02-28 13:01	/home/mysqlbackup/zipker_prod-28-Feb-2017-13-00-01.sql
+6.6G	2017-02-28 19:01	/home/mysqlbackup/zipker_prod-28-Feb-2017-19-00-01.sql
+6.1G	2017-02-27 04:01	/home/mysqlbackup/zipker_prod-27-Feb-2017-04-00-01.sql
+6.1G	2017-02-27 13:01	/home/mysqlbackup/zipker_prod-27-Feb-2017-13-00-01.sql
+6.2G	2017-02-27 19:01	/home/mysqlbackup/zipker_prod-27-Feb-2017-19-00-01.sql
+5.8G	2017-02-26 04:01	/home/mysqlbackup/zipker_prod-26-Feb-2017-04-00-01.sql
+5.9G	2017-02-26 13:01	/home/mysqlbackup/zipker_prod-26-Feb-2017-13-00-01.sql
+6.0G	2017-02-26 19:01	/home/mysqlbackup/zipker_prod-26-Feb-2017-19-00-01.sql
+5.6G	2017-02-25 13:01	/home/mysqlbackup/zipker_prod-25-Feb-2017-13-00-01.sql
+5.7G	2017-02-25 19:01	/home/mysqlbackup/zipker_prod-25-Feb-2017-19-00-01.sql
+6.3G	2017-03-02 04:01	/home/mysqlbackup/zipker_prod-02-Mar-2017-04-00-01.sql
+6.1G	2017-03-01 13:01	/home/mysqlbackup/zipker_prod-01-Mar-2017-13-00-01.sql
+6.2G	2017-03-01 19:01	/home/mysqlbackup/zipker_prod-01-Mar-2017-19-00-01.sql
+6.7G	2017-03-01 04:02	/home/mysqlbackup/zipker_prod-01-Mar-2017-04-00-01.sql

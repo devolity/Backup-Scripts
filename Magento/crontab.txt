@@ -1,0 +1,5 @@
+* * * * * sh /root/cronupdate.sh
+30 20 * * * php /var/www/html/zipker_cart_pushnotification.php
+0 11 * * * php /var/www/html/zipker_cart_pushnotification.php
+0 14 * * * php /var/www/html/zipker_cart_pushnotification.php
+0 02 * * * php /var/www/html/zipker_cart_pushnotification_removed.php

@@ -1,0 +1,236 @@
+ 
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-06-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-06-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-06-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-06-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-06-2022-innometro_com.sql.gz
+
+Finished running - Apr-06-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-07-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-07-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-07-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-07-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-07-2022-innometro_com.sql.gz
+
+Finished running - Apr-07-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-08-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Nuking files /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-03-2022-aidbs_blog.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-08-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Nuking files /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-03-2022-delhidostietc.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-08-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Nuking files /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-03-2022-efinityservices_com.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-08-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Nuking files /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-03-2022-innometro_com.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-08-2022-innometro_com.sql.gz
+
+Finished running - Apr-08-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-09-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Nuking files /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-04-2022-aidbs_blog.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-09-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Nuking files /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-04-2022-delhidostietc.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-09-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Nuking files /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-04-2022-efinityservices_com.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-09-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Creating directory /home/Raw-Backup/DataBase-Backup/innometro_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-09-2022-innometro_com.sql.gz
+
+Finished running - Apr-09-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-09-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Nuking files /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-05-2022-aidbs_blog.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-09-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Nuking files /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-05-2022-delhidostietc.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-09-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Nuking files /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-05-2022-efinityservices_com.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-09-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-09-2022-innometro_com.sql.gz
+
+Finished running - Apr-09-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-09-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-09-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-09-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-09-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-09-2022-innometro_com.sql.gz
+
+Finished running - Apr-09-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-10-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-10-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-10-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-10-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-10-2022-innometro_com.sql.gz
+
+Finished running - Apr-10-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-11-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Nuking files /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-06-2022-aidbs_blog.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-11-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Nuking files /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-06-2022-delhidostietc.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-11-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Nuking files /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-06-2022-efinityservices_com.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-11-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-11-2022-innometro_com.sql.gz
+
+Backing up omegaglobalnetwork_com into /home/Raw-Backup/DataBase-Backup/omegaglobalnetwork_com
+Creating directory /home/Raw-Backup/DataBase-Backup/omegaglobalnetwork_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf omegaglobalnetwork_com | gzip > /home/Raw-Backup/DataBase-Backup/omegaglobalnetwork_com/Apr-11-2022-omegaglobalnetwork_com.sql.gz
+
+Finished running - Apr-11-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-12-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Nuking files /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-07-2022-aidbs_blog.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-12-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Nuking files /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-07-2022-delhidostietc.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-12-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Nuking files /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-07-2022-efinityservices_com.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-12-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-12-2022-innometro_com.sql.gz
+
+Backing up omegaglobalnetwork_com into /home/Raw-Backup/DataBase-Backup/omegaglobalnetwork_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf omegaglobalnetwork_com | gzip > /home/Raw-Backup/DataBase-Backup/omegaglobalnetwork_com/Apr-12-2022-omegaglobalnetwork_com.sql.gz
+
+Finished running - Apr-12-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-13-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Nuking files /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-08-2022-aidbs_blog.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-13-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Nuking files /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-08-2022-delhidostietc.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-13-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Nuking files /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-08-2022-efinityservices_com.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-13-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-13-2022-innometro_com.sql.gz
+
+Backing up omegaglobalnetwork_com into /home/Raw-Backup/DataBase-Backup/omegaglobalnetwork_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf omegaglobalnetwork_com | gzip > /home/Raw-Backup/DataBase-Backup/omegaglobalnetwork_com/Apr-13-2022-omegaglobalnetwork_com.sql.gz
+
+Finished running - Apr-13-2022
+
+1:[mysql]
+6:[mysqldump]
+== Running /home/.Raw2021s/DB-Backup-All.sh on hosting.devolity.com - Apr-14-2022 ==
+
+Backing up aidbs_blog into /home/Raw-Backup/DataBase-Backup/aidbs_blog
+Nuking files /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-09-2022-aidbs_blog.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf aidbs_blog | gzip > /home/Raw-Backup/DataBase-Backup/aidbs_blog/Apr-14-2022-aidbs_blog.sql.gz
+
+Backing up delhidostietc into /home/Raw-Backup/DataBase-Backup/delhidostietc
+Nuking files /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-09-2022-delhidostietc.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf delhidostietc | gzip > /home/Raw-Backup/DataBase-Backup/delhidostietc/Apr-14-2022-delhidostietc.sql.gz
+
+Backing up efinityservices_com into /home/Raw-Backup/DataBase-Backup/efinityservices_com
+Nuking files /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-09-2022-efinityservices_com.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf efinityservices_com | gzip > /home/Raw-Backup/DataBase-Backup/efinityservices_com/Apr-14-2022-efinityservices_com.sql.gz
+
+Backing up innometro_com into /home/Raw-Backup/DataBase-Backup/innometro_com
+Nuking files /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-09-2022-innometro_com.sql.gz 
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf innometro_com | gzip > /home/Raw-Backup/DataBase-Backup/innometro_com/Apr-14-2022-innometro_com.sql.gz
+
+Backing up omegaglobalnetwork_com into /home/Raw-Backup/DataBase-Backup/omegaglobalnetwork_com
+Running: mysqldump --defaults-file=/home/.Raw2021s/.mysqlbkup.cnf omegaglobalnetwork_com | gzip > /home/Raw-Backup/DataBase-Backup/omegaglobalnetwork_com/Apr-14-2022-omegaglobalnetwork_com.sql.gz
+
+Finished running - Apr-14-2022
+

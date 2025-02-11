@@ -1,0 +1,6 @@
+0 4 * * * sh /root/abhi/mysql.sh | echo "The task is for Mysql Logs Clear `date`" | mail -e -s "Mysql Logs and Table Optimization" arpan.jain@zipker.com,avinash.puri@zipker.com
+
+#0 13 * * *  sh /root/abhi/mysqlpm.sh
+
+0 */4 * * *  sh /root/abhi/mysql7pm.sh
+

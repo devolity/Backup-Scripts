@@ -1,0 +1,57 @@
+#
+# This group is read both both by the client and the server
+# use it for options that affect everything
+[mysqld]
+bind_address=51.254.198.42
+server-id = 1
+log_bin = /var/lib/mysql/master-bin.log
+binlog_do_db = zipker_prod
+binlog-format=MIXED
+#
+skip-name-resolve
+#skip-host-cache
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+query_cache_limit=4000M
+query_cache_size=512M
+#query_cache_type=1
+max_user_connections=800
+max_connections=1500
+innodb_buffer_pool_size=80G
+innodb_log_file_size=4G
+connect_timeout=5
+innodb_file_per_table=1
+tmp_table_size= 2048M
+max_heap_table_size=4800M
+table_open_cache=4G
+#key_buffer=1000M
+key_buffer_size=5G
+join_buffer_size=32M
+sort_buffer_size=32M
+read_buffer_size=32M
+read_rnd_buffer_size=80M
+myisam_sort_buffer_size=2000M
+#skip-external-locking
+innodb_buffer_pool_instances=14
+open_files_limit=10000
+innodb_additional_mem_pool_size = 8000M
+init_connect='SET autocommit=1'
+#autocommit=0
+log_error=/var/log/mysql/mysql_error.log
+#
+interactive_timeout=30
+wait_timeout=30
+innodb_lock_wait_timeout=22
+metadata_locks_cache_size=300000
+metadata_locks_hash_instances=600
+lock_wait_timeout=10
+
+#
+#
+[client-server]
+
+#
+# include all files from the config directory
+#
+!includedir /etc/my.cnf.d
+

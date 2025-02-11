@@ -1,0 +1,9 @@
+0 01 * * * sh /home/script/zipkercourier_fedex.sh | echo "The task is started for Fedex Courier `date`" | mail -e -s "Fedex Zipker Courier Tracking" arpan.jain@zipker.com,avinash.puri@zipker.com
+
+1 01 * * * sh /home/script/zipkercourier_bluedart.sh | echo "The task is started for Blue Dart Courier `date`" | mail -e -s "Blue Dart Zipker Courier Tracking" arpan.jain@zipker.com,avinash.puri@zipker.com
+
+2 13 * * * sh /home/script/zipkercourier_ecom.sh | echo "The task is started for Ecom Courier `date`" | mail -e -s "Ecom Zipker Courier Tracking" arpan.jain@zipker.com,avinash.puri@zipker.com
+
+3 01 * * * sh /home/script/zipkercourier_aramex.sh | echo "The task is started for Aramex Courier `date`" | mail -e -s "Aramex Zipker Courier Tracking" arpan.jain@zipker.com,avinash.puri@zipker.com
+
+00 04 * * 7 sh /home/script/araw_logs_clean.sh

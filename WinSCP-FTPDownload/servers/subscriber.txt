@@ -1,0 +1,5 @@
+option batch continue
+option confirm off
+open subscriber@52.37.171.218
+get * E:\ADATA\subscriber-%TIMESTAMP%\
+bye

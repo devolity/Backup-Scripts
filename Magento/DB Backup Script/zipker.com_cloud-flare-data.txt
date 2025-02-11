@@ -1,0 +1,62 @@
+;; 
+;; Domain:     zipker.com
+;; Exported:   2016-12-22 04:51:28
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	zipker.com.	root.zipker.com.	(
+		2023404888	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
+
+
+
+;; NS Records (YOU MUST CHANGE THIS)
+zipker.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; MX Records
+zipker.com.	300	IN	MX	10	mta001.zcluster7-ind.megavelocity.net.
+
+;; TXT Records
+zipker.com.	300	IN	TXT	"google-site-verification=UK8_n7XfBpwMyNlS8fuW4fgkc5ka-b4bxd5zAx6ZAt0"
+22f2dfee-c69a-11e6-ac5a-d3ec2798c3cd._domainkey.zipker.com.	300	IN	TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZr9+cxAIg9uwZyplPFe+1Y06JteyPO8A9yeJ5SWSZz/iXEHRJWGmovcfuXfVoT5bZ876wQozU5svuY2Bzzs298GRAkWLPkI5TRAGzj+5RLZWLsc4hCYdMxbbc3Zt6PuiAcOeMmHHbc0dhRJxhrYfJmpzy04zkIsfS5QmVGs3MAwIDAQAB"
+
+;; SPF Records (Sender Policy Framework)
+zipker.com.	300	IN	SPF	"v=spf1 mx ip4:103.25.131.81 ~all"
+
+;; CNAME Records
+mail.zipker.com.	300	IN	CNAME	mta001.zcluster7-ind.megavelocity.net.
+40e314ad404aa21bee00cdb24901bb2d.www.zipker.com.	300	IN	CNAME	4889def112c6f5bbd1c2d5c891ad7057b3a238a3.comodoca.com.
+40e314ad404aa21bee00cdb24901bb2d.zipker.com.	300	IN	CNAME	4889def112c6f5bbd1c2d5c891ad7057b3a238a3.comodoca.com.
+
+;; A Records (IPv4 addresses)
+test.zipker.com.	300	IN	A	164.132.163.124
+www.zipker.com.	300	IN	A	46.105.111.168
+static.zipker.com.	300	IN	A	46.105.111.168
+blog.zipker.com.	300	IN	A	46.105.112.141
+js.zipker.com.	300	IN	A	46.105.111.168
+zipker.com.	300	IN	A	46.105.111.168
+app.zipker.com.	300	IN	A	193.70.37.14
+zts.zipker.com.	300	IN	A	164.132.163.124
